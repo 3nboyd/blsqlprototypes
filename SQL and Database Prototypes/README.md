@@ -13,9 +13,9 @@ Navigate to the BoomerangLearning-MAIN resource group.
 Click on Create a Resource > App Service.
 Select:
 Runtime: Node.js 16 LTS.
-Operating System: Windows (to avoid Linux-based systems).
+Operating System: Windows (don't use the Linux system or it won't work).
 
-tep 2: Connect to the Azure SQL Database
+Step 2: Connect to the Azure SQL Database
 In the Azure Portal, open your SQL Database.
 Copy the connection string (with username and password).
 Add the connection string details to your .env file:
